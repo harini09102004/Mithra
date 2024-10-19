@@ -1,0 +1,74 @@
+[
+    {
+        "command": "I have a stomach pain",
+        "timestamp": "2024-10-04 02:04:10.892964"
+    },
+    {
+        "command": "I am experiencing a headache today alone",
+        "timestamp": "2024-10-04 14:17:50.267851"
+    },
+    {
+        "command": "no vomiting sensation",
+        "timestamp": "2024-10-04 14:18:26.131002"
+    },
+    {
+        "command": "yes please",
+        "timestamp": "2024-10-04 14:19:29.252856"
+    },
+    {
+        "command": "emergency",
+        "timestamp": "2024-10-04 14:21:09.125139"
+    },
+    {
+        "command": "I am having a head pain",
+        "timestamp": "2024-10-06 22:09:23.718280"
+    },
+    {
+        "command": "only one side of my head",
+        "timestamp": "2024-10-06 22:09:55.763471"
+    },
+    {
+        "command": "no",
+        "timestamp": "2024-10-06 22:10:31.267779"
+    },
+    {
+        "command": "yes please",
+        "timestamp": "2024-10-06 22:11:25.633973"
+    },
+    {
+        "command": "emergency",
+        "timestamp": "2024-10-06 22:11:51.719536"
+    },
+    {
+        "command": "I am feeling restless",
+        "timestamp": "2024-10-06 22:12:24.540659"
+    },
+    {
+        "command": "I am feeling stressed out",
+        "timestamp": "2024-10-06 22:12:54.191642"
+    },
+    {
+        "command": "I am feeling depress",
+        "timestamp": "2024-10-06 22:13:25.945810"
+    },
+    {
+        "command": "check medication intake",
+        "timestamp": "2024-10-06 22:14:08.252040"
+    },
+    {
+        "command": "check medication intake",
+        "timestamp": "2024-10-06 22:15:07.482091"
+    },
+    {
+        "command": "check medication intake",
+        "timestamp": "2024-10-06 22:15:26.734699"
+    },
+    {
+        "command": "I am depressed",
+        "timestamp": "2024-10-06 22:16:06.207924"
+    },
+    {
+        "command": "emergency",
+        "timestamp": "2024-10-11 11:31:40.339985"
+    }
+]
