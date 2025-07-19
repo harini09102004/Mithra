@@ -178,13 +178,13 @@ def allCommands(message=1):
         elif "yes please" in query:
             from twilio.rest import Client
 
-            account_sid ='ACff45f9d9144d0ed88a4aa583118a1504'
-            auth_token ='bca43ddaea438e529fff2cfc11687d55'
+            account_sid =''
+            auth_token =''
             client = Client(account_sid, auth_token)
             message = client.messages.create(
                 body='Patient Harini wants to book an appointment for consultation',
-                from_='+12162421956',
-                to='+919791805322'
+                from_='+121xxxxxxxx',
+                to='+91xxxxxxxxxx'
             )
 
         elif "on youtube" in query:
@@ -243,25 +243,25 @@ def allCommands(message=1):
             speak("sent report to your doctor")
             from twilio.rest import Client
 
-            account_sid ='ACff45f9d9144d0ed88a4aa583118a1504'
-            auth_token ='bca43ddaea438e529fff2cfc11687d55'
+            account_sid =''
+            auth_token =''
             client = Client(account_sid, auth_token)
             message = client.messages.create(
                 body=generate_report(),
-                from_='+12162421956',
-                to='+919791805322'
+                from_='+121xxxxxxxx',
+                to='+91xxxxxxxxxx'
             )
 
         elif "emergency" in query:
             from twilio.rest import Client
-            account_sid ='ACff45f9d9144d0ed88a4aa583118a1504'
-            auth_token='bca43ddaea438e529fff2cfc11687d55'
+            account_sid =''
+            auth_token=''
             client =Client(account_sid,auth_token)
             message=client.calls \
                 .create(
                     twiml= '<Response><Say>Harini is in emergency! please checkout what happened to her</Say></Response>',
-                    from_='+12162421956',
-                    to='+919791805322'
+                    from_='+121xxxxxxxxxx',
+                    to='+91xxxxxxxxxx'
                 )
 
         elif "set alarm for medication" in query:
@@ -330,13 +330,13 @@ def allCommands(message=1):
                             speak("Medicine has not been taken.")
                             from twilio.rest import Client
 
-                            account_sid ='ACff45f9d9144d0ed88a4aa583118a1504'
-                            auth_token ='bca43ddaea438e529fff2cfc11687d55'
+                            account_sid =''
+                            auth_token =''
                             client = Client(account_sid, auth_token)
                             message = client.messages.create(
                                 body='Medicine not taken by Harini',
-                                from_='+12162421956',
-                                to='+919791805322'
+                                from_='+121xxxxxxxxx',
+                                to='+91xxxxxxxxxx'
                             )
 
             finally:
