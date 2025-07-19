@@ -4,7 +4,7 @@ from PIL import Image
 import google.generativeai as genai
 import pyttsx3
 
-genai.configure(api_key="AIzaSyBjARp9j3dMyRlsfOFoC59kI9UJX15dZ_M")
+genai.configure(api_key="")
 
 model=genai.GenerativeModel('gemini-1.5-flash')
 
