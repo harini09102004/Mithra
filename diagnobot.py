@@ -12,7 +12,7 @@ import speech_recognition as sr
 import MyAlarm  # Import MyAlarm before usage
 
 # Configure API key for Google Generative AI
-genai.configure(api_key="AIzaSyBjARp9j3dMyRlsfOFoC59kI9UJX15dZ_M")
+genai.configure(api_key="")
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Initialize pyttsx3 engine
