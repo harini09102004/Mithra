@@ -7,7 +7,7 @@ import speech_recognition as sr
 import time
 
 # Configure API key for Google Generative AI
-genai.configure(api_key="AIzaSyBjARp9j3dMyRlsfOFoC59kI9UJX15dZ_M")  # Replace with your actual API key
+genai.configure(api_key="")  # Replace with your actual API key
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Initialize pyttsx3 engine
